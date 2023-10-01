@@ -1,0 +1,38 @@
+
+.meme-generator{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.meme-generator img{
+    height: 430px;
+    object-fit: cover;
+
+}
+
+.meme-generator .meme-gen-btn{
+    padding: 8px 20px;
+    font-size: 20px;
+    margin-top: 24px ;
+    border: none;
+    border-left: 4px solid #a86f0c;
+    border-right: 4px solid #a86f0c;
+    transition: all 400 ease;
+    background-color: rgb(217, 226, 217);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.meme-generator .meme-gen-btn:hover{
+    padding: 8px 36px;
+    border-left: 8px solid #a86f0c;
+    border-right: 8px solid #a86f0c;
+    letter-spacing: 2px;
+    background-color: rgb(196, 180, 180);
+
+}
+
+.meme-generator .meme-author{
+    margin: 8px;
+}
